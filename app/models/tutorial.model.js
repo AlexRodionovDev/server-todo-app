@@ -1,7 +1,7 @@
 module.exports = mongoose => {
   var schema = mongoose.Schema(
     {
-      title: String,
+      title: [111, 222],
       description: String,
       published: Boolean
     },
